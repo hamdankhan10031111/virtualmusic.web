@@ -1,0 +1,60 @@
+html{
+    background-color: rgb(70, 67, 67);
+}
+.header{
+    background-color: rgb(30, 29, 29);
+    height: auto;
+    width: 100%;
+    color: White;
+    text-align: center;
+    font-size: large;
+    padding: 1px;
+}
+.details {
+    margin: 2% 10% ;
+    padding:10px;
+}
+
+.details h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.gallery .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    gap: 0.1rem;
+    padding: 0.7rem;
+}
+.gallery .row .box{
+    border: 0.1rem solid var(--bg);
+}
+.gallery .row .box img{
+    width: 100%;
+    object-fit:cover;
+    opacity: .8;
+    height: 100%;
+}
+.gallery .row .box img:hover{
+    transform: scale(.96);
+    opacity: 1;
+    cursor: pointer;
+}
+ .gallery .heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(201, 193, 193);
+    color: black;
+    border-radius: 100px;
+    width: 245px;
+    height: 41px;
+    text-align: center;
+    margin-left: 40%;
+ }
+
+ .detail2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+ }
